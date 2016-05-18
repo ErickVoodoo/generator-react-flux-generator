@@ -1,0 +1,46 @@
+@import "./_variables";
+@import "./fonts/main";
+
+body,
+html {
+  height:100%;
+  width: 100%;
+  font-family: "Times New Roman Normal";
+  text-transform: uppercase;
+}
+
+:global .container {
+  width: 100%;
+  height: 100%;
+}
+
+:global .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:global button {
+  padding: $button-padding-medium;
+  margin: $button-padding-medium;
+  border: 1px solid;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+:global input {
+  padding: $button-padding-small;
+  margin: $button-padding-small;
+  text-transform: uppercase;
+  font-size: $font-size-medium;
+}
+
+:global .horiz-border {
+  border-top: 1px solid;
+  width: 100%;
+}
+
+:global .hidden {
+  display: hidden;
+  opacity: 0;
+}

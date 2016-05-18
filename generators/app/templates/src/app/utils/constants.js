@@ -1,0 +1,21 @@
+export default {
+  CALLBACKS: {
+    STORE_EVENT: 'STORE_EVENT',
+    AJAX_EVENT: 'AJAX_EVENT',
+  },
+  ACTIONS: {
+    START: 'START',
+    ADD_DATA: 'ADD_DATA',
+    REQUEST_STARTED: 'REQUEST_STARTED',
+    REQUEST_FINISHED: 'REQUEST_FINISHED',
+    GET_DATA_SUCCESS: 'GET_DATA_SUCCESS',
+    GET_DATA_FAIL: 'GET_DATA_FAIL',
+  },
+  DISPATCHER: {
+    MAIN: 'VIEW_ACTION',
+  },
+  ERRORS: {
+    NETWORK: 'Network error',
+    CONFLICT: 'Conflict error',
+  },
+};

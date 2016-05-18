@@ -1,0 +1,28 @@
+{
+  "name": "<%= props.name %>",
+  "version": "<%= props.version %>",
+  "description": "",
+  "devServerPort": "8080",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.config.js --hot --progress --colors --port 8080",
+    "static": "webpack -p --config webpack.prod.config.js && gulp static && http-server -p 3000 ./.public",
+    "build": "webpack -p --config webpack.prod.config.js && gulp",
+    "lint": "eslint ./src/app/**/*",
+    "jscs": "jscs src/app"
+  },
+  "author": "",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "dependencies": {
+    "history": "1.17.0",
+    "react-router": "1.0.3"
+  },
+  "devDependencies": {
+    "gulp-zip": "3.0.2",
+    "http-server": "0.8.5",
+    "babel-eslint": "4.1.8",
+    "eslint": "1.10.3"
+  }
+}

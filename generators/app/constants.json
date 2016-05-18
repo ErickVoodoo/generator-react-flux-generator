@@ -1,0 +1,82 @@
+{
+  "package" : {
+    "name" : "name",
+    "id" : "id",
+    "version" : "version",
+    "dependencies" : "dependencies"
+  },
+  "mode" : {
+    "default" : {
+      "dev" : [
+        "autoprefixer",
+        "babel-core",
+        "babel-loader",
+        "babel-polyfill",
+        "babel-preset-es2015",
+        "babel-preset-react",
+        "babel-preset-stage-0",
+        "babel-preset-stage-1",
+        "css-loader",
+        "eslint-config-airbnb",
+        "eslint-loader",
+        "eslint-plugin-react",
+        "extract-text-webpack-plugin",
+        "file-loader",
+        "gulp",
+        "gulp-clean",
+        "gulp-imagemin",
+        "image-webpack-loader",
+        "json-loader",
+        "merge-stream",
+        "node-sass",
+        "postcss-loader",
+        "react-hot-loader",
+        "sass-loader",
+        "style-loader",
+        "webpack",
+        "webpack-dev-server",
+        "jscs",
+        "jscs-loader"
+      ],
+      "prod" : [
+        "classnames",
+        "flux",
+        "lodash",
+        "normalize.scss",
+        "react",
+        "react-dom",
+        "react-modal",
+        "react-spinkit"
+      ]
+    },
+    "custom" : {
+      "dev": [
+
+      ],
+      "prod": [
+
+      ]
+    }
+  },
+  "files" : [
+    [ "src/app/", "src/app/", false ],
+    [ "src/icons/", "src/icons/", false ],
+    [ "src/img/", "src/img/", false ],
+    [ "src/splashes/", "src/splashes/", false ],
+    [ "src/styles/", "src/styles/", false ],
+    [ "src/styles/", "src/styles/", false ],
+    [ "src/icon.png", "src/icon.png", false ],
+    [ "src/index.html", "src/index.html", false ],
+    [ ".babelrc", ".babelrc", false ],
+    [ ".editorconfig", ".editorconfig", false ],
+    [ ".jscsrc", ".jscsrc", false ],
+    [ ".eslintignore", ".eslintignore", false ],
+    [ ".eslintrc", ".eslintrc", false ],
+    [ "gulpfile.js", "gulpfile.js", false ],
+    [ "README.md", "README.md", false ],
+    [ "webpack.dev.config.js", "webpack.dev.config.js", false ],
+    [ "webpack.prod.config.js", "webpack.prod.config.js", false ],
+    [ "package.json", "package.json", true ],
+    [ "src/config.xml", "src/config.xml", true ]
+  ]
+}

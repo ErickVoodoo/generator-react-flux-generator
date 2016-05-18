@@ -1,0 +1,24 @@
+{
+  "name": "generator-react-flux-generator",
+  "version": "0.1.3",
+  "description": "React flux generator with simple store and simle AJAX request",
+  "homepage": "",
+  "author": {
+    "name": "AlexandrMozolevsky",
+    "email": "erick.android.freelance@gmail.com",
+    "url": "https://github.com/ErickVoodoo/generator-react-flux-generator"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "flux",
+    "react",
+    "react.js",
+    "reactjs",
+    "jsx",
+    "yeoman",
+    "yeoman-generator"
+  ]
+}
